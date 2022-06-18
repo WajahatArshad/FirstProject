@@ -34,7 +34,7 @@ class UserChatsState extends State<UserChats> {
                   radius: 25,
                 ),
                 title: Text(
-                  chatData[index].toString(),
+                  chatData[index]['name'],
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
